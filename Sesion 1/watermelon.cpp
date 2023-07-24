@@ -12,7 +12,7 @@ int main() {
   // Recibir los datos
   cin >> w;
 
-  // Si es imapr o 2, no se puede dividir la sandía como se pide
+  // Si es impar o 2, no se puede dividir la sandía como se pide
   if(w%2==1 || w==2){
     cout << "NO" << endl;
   }else{ // En caso contrario sí se puede
